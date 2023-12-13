@@ -38,6 +38,100 @@ body {
   background-color: #f7ead7;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0c0a3e;
+  margin: 0;
+  padding: 1rem;
+}
+
+  
+  
+.header-contact a{
+  text-decoration: none;
+  background-color: #0c0a3e;
+  color: #f7ead7;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  position:absolute; top:0; right:0; 
+  margin: 0;
+}
+
+header img {
+  width: 50px;
+  height: 40px;
+  background-color: rgb(10, 10, 71);
+  border-radius: 0.5rem;
+}
+
+
+.grid-container {
+  margin: 3rem 0 0 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+
+  list-style-type: none;
+  padding: 0em;
+}
+
+.grid-container > * {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.web-development {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  background-color:  #d2c2d2;
+}
+
+.ui-ux{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #edbcc3;
+}
+
+.css {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #f38a9b;
+}
+.javascript {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #73ccea;
+}
+
+.html{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  background-color: #9595f4;
+}
+.github {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  background-color: #d2c2d2;
+  
+}
+
+
 /*
  * SR-ONLY
  */
