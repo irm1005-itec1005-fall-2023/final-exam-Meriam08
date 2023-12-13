@@ -160,7 +160,7 @@ header img {
  
 }
  .work-container .hero-image{
-  width: 70%;
+  width: 65%;
   height: auto;
  padding: 1rem;
   
@@ -229,7 +229,48 @@ header img {
  
 }
 
+.work-grid-item p{
+  display: inline-block;
+  background-color: #e1687c;
+  color: #fdf0d5;
+  margin: 2rem;
+ padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 
+.work-container2 {
+  background-color: #b981b9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+  .work-container2 h2 p{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0c0a3e;
+  margin: 0;
+  padding: 1rem;
+}
+.primary-btn2{
+  display: inline-block;
+  background-color: #000000;
+  color: #fdf0d5;
+  margin: 2rem;
+ padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.primary-btn2:hover{
+  background-color: #5d0f1c;
+  color: #fdf0d5;
+  transition: 0.5s;
+}
 
 
 
